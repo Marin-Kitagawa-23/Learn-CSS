@@ -1,0 +1,58 @@
+.try {
+    color: aqua;
+}
+
+#iop {
+    color: blue;
+}
+
+div p b , div i {
+    color: green;
+}
+/* */
+.main-link {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.main-link:hover {
+    color:brown;
+    text-decoration: underline;
+    text-decoration-color: chocolate;
+    cursor: pointer;
+}
+
+.main-link:active {
+    text-decoration: line-through;
+}
+
+.main-link:visited {
+    color: black;
+}
+
+input {
+    color:aqua;
+}
+input:focus {
+    color: red;
+
+}
+
+input:disabled {
+    color: aliceblue;
+}
+
+p.text:empty::after {
+    color: blue;
+    content: attr(title);
+}
+
+#some-id::after{
+    content: '123';
+    color:cyan ;
+}
+
+p.text:not(:empty)::after {
+    color: blue;
+    content: 'good job';
+}

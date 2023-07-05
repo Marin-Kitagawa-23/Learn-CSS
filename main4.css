@@ -1,0 +1,15 @@
+.main {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border: 10px solid rebeccapurple;
+    border-radius: 200px;
+    opacity: 0.8;
+    margin-top: 50vh;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
